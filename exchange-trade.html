@@ -37,11 +37,9 @@
                     <ul class="nav nav-tabs wallet-tabs" role="tablist" >
                         <li class="item-slide-effect"></li>
                         <li class="nav-item active" role="presentation">   
-                            <button class="nav-link active"  data-bs-toggle="tab" data-bs-target="#link">Convert & Link</button>
+                            <button class="nav-link active"  data-bs-toggle="tab" data-bs-target="#link">Swap your Asset</button>
                         </li>
-                        <li class="nav-item" role="presentation">
-							<button class="nav-link" data-bs-toggle="tab" data-bs-target="#order">Limit order</button>
-						</li>    
+                        
                     </ul>
                 </div>
                 <div class="tab-content pt-16 pb-16">
@@ -96,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-						<a href="javascript:void(0);" class="tf-btn lg mt-20 secondary" data-bs-toggle="modal" data-bs-target="#connectWallet">Connect Wallet</a>
+						<a href="#" class="tf-btn lg mt-20 secondary" data-bs-toggle="modal" data-bs-target="#connectWallet">Swap</a>
                         <ul class="mt-20 accent-box line-border">
                             <li class="trade-list-item">
                                  <p class="d-flex align-items-center text-small gap-4">Reference <i class="icon-question fs-16 text-secondary"></i> </p>
@@ -227,25 +225,7 @@
     </div>
 
     <!-- connect wallet -->
-    <div class="modal fade action-sheet" id="connectWallet">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="icon-cancel" data-bs-dismiss="modal" aria-hidden="true"></span>
-                </div>
-                <div class="modal-body text-center">
-                    <span class="logo icon-wallet"></span>
-                    <h3 class="mt-4">Connect Wallet</h3>
-                    <p class="mt-12 text-white text-large">Please connect by entering an existing wallet or create a new one.</p>
-                    <div class="mt-32">
-                        <a href="javascript:void(0);" class="tf-btn sm secondary d-inline-flex" data-bs-toggle="modal" data-bs-target="#keyWallet">Create wallet</a>
-                        <a href="javascript:void(0);" class="mt-12 tf-btn sm dark d-inline-flex" data-bs-toggle="modal" data-bs-target="#keyWallet">Enter a wallet</a>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
+    
     
     <!-- key wallet -->
     <div class="modal fade action-sheet" id="keyWallet">
